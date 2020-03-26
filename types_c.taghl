@@ -1,0 +1,8 @@
+syn keyword CTagsLocalVariable j ch temp i out_mode bitcnt
+syn keyword CTagsGlobalVariable y_pos x_pos
+syn keyword CTagsConstant FontLookup
+syn keyword CTagsEnumerationValue LCD_CHAR LCD_MODE_NORM LCD_MODE_INVERSE LCD_DATA LCD_CMD LCD_PIXEL
+syn keyword CTagsFunction LcdBigFontChar LcdChr LcdBigStr main LcdFStr LcdSend LcdStr LcdZone Delay LcdGotoXY SPIInit LcdInit LcdClear LcdBigFStr
+syn keyword CTagsType LcdPixelChar LcdCmdData LcdMode
+syn keyword CTagsDefinedName OK OK_WITH_WRAP LCD_DC_PIN TRUE LCD_CE_PIN LCD_DELAY LCD_RST_PIN LCD_DDR LCD_PORT BAR_Y EMPTY_SPACE_BARS LCD_CLK_PIN FALSE LCD_SIZE BAR_X OUT_OF_BORDER LCD_X_MAX LCD_Y_MAX LCD_3310 LCD_Y_RES LCD_X_RES LCD_IN_PIN LCD_8544_H_ SPI_MODE
+

@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AS	Makefile	/^AS = avr-gcc$/;"	m
+ASFLAGS	Makefile	/^ASFLAGS = -m$(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections$/;"	m
+ASM_SOURCES	Makefile	/^ASM_SOURCES =  \\$/;"	m
+AS_DEFS	Makefile	/^AS_DEFS = $/;"	m
+AS_INCLUDES	Makefile	/^AS_INCLUDES = $/;"	m
+BAR_X	inc/lcd_8544.h	40;"	d
+BAR_Y	inc/lcd_8544.h	41;"	d
+BUILD_DIR	Makefile	/^BUILD_DIR = build$/;"	m
+CC	Makefile	/^CC = avr-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $(OPT) -Wall -fdata-sections -ffunction-sections$/;"	m
+CP	Makefile	/^CP = avr-objcopy$/;"	m
+C_INCLUDES	Makefile	/^C_INCLUDES =  \\$/;"	m
+C_SOURCES	Makefile	/^C_SOURCES =  \\$/;"	m
+DEBUG	Makefile	/^DEBUG = 1$/;"	m
+Delay	src/lcd_8544.c	/^static void Delay ( void )$/;"	f	file:	signature:( void )
+EMPTY_SPACE_BARS	inc/lcd_8544.h	39;"	d
+FALSE	inc/lcd_8544.h	18;"	d
+FontLookup	inc/lcd_8544.h	/^static const char FontLookup [][5] =$/;"	v
+LCD_3310	inc/lcd_8544.h	14;"	d
+LCD_8544_H_	inc/lcd_8544.h	9;"	d
+LCD_CE_PIN	inc/lcd_8544.h	50;"	d
+LCD_CE_PIN	inc/lcd_8544.h	54;"	d
+LCD_CHAR	inc/lcd_8544.h	/^	LCD_CHAR = 0,$/;"	e	enum:__anon2
+LCD_CLK_PIN	inc/lcd_8544.h	48;"	d
+LCD_CLK_PIN	inc/lcd_8544.h	52;"	d
+LCD_CMD	inc/lcd_8544.h	/^    LCD_CMD  = 0,$/;"	e	enum:__anon1
+LCD_DATA	inc/lcd_8544.h	/^    LCD_DATA = 1$/;"	e	enum:__anon1
+LCD_DC_PIN	inc/lcd_8544.h	56;"	d
+LCD_DDR	inc/lcd_8544.h	45;"	d
+LCD_DELAY	inc/lcd_8544.h	68;"	d
+LCD_IN_PIN	inc/lcd_8544.h	49;"	d
+LCD_IN_PIN	inc/lcd_8544.h	53;"	d
+LCD_MODE_INVERSE	inc/lcd_8544.h	/^	LCD_MODE_INVERSE$/;"	e	enum:__anon3
+LCD_MODE_NORM	inc/lcd_8544.h	/^	LCD_MODE_NORM = 0,$/;"	e	enum:__anon3
+LCD_PIXEL	inc/lcd_8544.h	/^	LCD_PIXEL$/;"	e	enum:__anon2
+LCD_PORT	inc/lcd_8544.h	44;"	d
+LCD_RST_PIN	inc/lcd_8544.h	57;"	d
+LCD_SIZE	inc/lcd_8544.h	42;"	d
+LCD_X_MAX	inc/lcd_8544.h	33;"	d
+LCD_X_RES	inc/lcd_8544.h	27;"	d
+LCD_X_RES	inc/lcd_8544.h	30;"	d
+LCD_Y_MAX	inc/lcd_8544.h	35;"	d
+LCD_Y_MAX	inc/lcd_8544.h	37;"	d
+LCD_Y_RES	inc/lcd_8544.h	28;"	d
+LCD_Y_RES	inc/lcd_8544.h	31;"	d
+LD	Makefile	/^LD = avr-gcc$/;"	m
+LIBDIR	Makefile	/^LIBDIR = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LcdBigFStr	inc/lcd_8544.h	/^uint8_t LcdBigFStr		 (char *ch);$/;"	p	signature:(char *ch)
+LcdBigFStr	src/lcd_8544.c	/^uint8_t LcdBigFStr(char *ch){$/;"	f	signature:(char *ch)
+LcdBigFontChar	inc/lcd_8544.h	/^uint8_t LcdBigFontChar	 (uint8_t ch);$/;"	p	signature:(uint8_t ch)
+LcdBigFontChar	src/lcd_8544.c	/^uint8_t LcdBigFontChar(uint8_t ch)$/;"	f	signature:(uint8_t ch)
+LcdBigStr	inc/lcd_8544.h	/^uint8_t LcdBigStr		 (uint8_t *ch);$/;"	p	signature:(uint8_t *ch)
+LcdBigStr	src/lcd_8544.c	/^uint8_t LcdBigStr(uint8_t *ch){$/;"	f	signature:(uint8_t *ch)
+LcdChr	inc/lcd_8544.h	/^uint8_t LcdChr           (LcdMode mode, uint8_t ch );$/;"	p	signature:(LcdMode mode, uint8_t ch )
+LcdChr	src/lcd_8544.c	/^uint8_t LcdChr ( LcdMode mode, uint8_t ch ){$/;"	f	signature:( LcdMode mode, uint8_t ch )
+LcdClear	inc/lcd_8544.h	/^void LcdClear            (void);$/;"	p	signature:(void)
+LcdClear	src/lcd_8544.c	/^void LcdClear(void){$/;"	f	signature:(void)
+LcdCmdData	inc/lcd_8544.h	/^} LcdCmdData;$/;"	t	typeref:enum:__anon1
+LcdFStr	inc/lcd_8544.h	/^uint8_t LcdFStr           (LcdMode mode,uint8_t startInverse,uint8_t endInverse, char* data );$/;"	p	signature:(LcdMode mode,uint8_t startInverse,uint8_t endInverse, char* data )
+LcdFStr	src/lcd_8544.c	/^uint8_t LcdFStr (LcdMode mode,uint8_t startInverse,uint8_t endInverse, char* data )$/;"	f	signature:(LcdMode mode,uint8_t startInverse,uint8_t endInverse, char* data )
+LcdGotoXY	inc/lcd_8544.h	/^uint8_t LcdGotoXY        (LcdPixelChar mode ,uint8_t x,uint8_t y);$/;"	p	signature:(LcdPixelChar mode ,uint8_t x,uint8_t y)
+LcdGotoXY	src/lcd_8544.c	/^uint8_t LcdGotoXY(LcdPixelChar mode ,uint8_t x,uint8_t y){$/;"	f	signature:(LcdPixelChar mode ,uint8_t x,uint8_t y)
+LcdInit	inc/lcd_8544.h	/^void LcdInit             (void);$/;"	p	signature:(void)
+LcdInit	src/lcd_8544.c	/^void LcdInit(void){$/;"	f	signature:(void)
+LcdMode	inc/lcd_8544.h	/^}LcdMode;$/;"	t	typeref:enum:__anon3
+LcdPixelChar	inc/lcd_8544.h	/^}LcdPixelChar;$/;"	t	typeref:enum:__anon2
+LcdSend	inc/lcd_8544.h	/^void LcdSend             (uint8_t data,LcdCmdData cd);$/;"	p	signature:(uint8_t data,LcdCmdData cd)
+LcdSend	src/lcd_8544.c	/^void LcdSend(uint8_t data, LcdCmdData cd){$/;"	f	signature:(uint8_t data, LcdCmdData cd)
+LcdStr	inc/lcd_8544.h	/^uint8_t LcdStr           (LcdMode mode,uint8_t startInverse,uint8_t endInverse, uint8_t* data );$/;"	p	signature:(LcdMode mode,uint8_t startInverse,uint8_t endInverse, uint8_t* data )
+LcdStr	src/lcd_8544.c	/^uint8_t LcdStr(LcdMode mode,uint8_t startInverse,uint8_t endInverse, uint8_t* data ){$/;"	f	signature:(LcdMode mode,uint8_t startInverse,uint8_t endInverse, uint8_t* data )
+LcdZone	inc/lcd_8544.h	/^uint8_t LcdZone          (uint8_t start_x,uint8_t start_y,uint8_t end_y,uint8_t ch,uint8_t length);$/;"	p	signature:(uint8_t start_x,uint8_t start_y,uint8_t end_y,uint8_t ch,uint8_t length)
+LcdZone	src/lcd_8544.c	/^uint8_t LcdZone(uint8_t start_x,uint8_t start_y,uint8_t end_y,uint8_t ch,uint8_t length){$/;"	f	signature:(uint8_t start_x,uint8_t start_y,uint8_t end_y,uint8_t ch,uint8_t length)
+MCU	Makefile	/^MCU = mcu=atmega16$/;"	m
+OBJECTS	Makefile	/^OBJECTS = $(addprefix $(BUILD_DIR)\/,$(notdir $(C_SOURCES:.c=.o)))$/;"	m
+OD	Makefile	/^OD = avr-objdump$/;"	m
+OK	inc/lcd_8544.h	22;"	d
+OK_WITH_WRAP	inc/lcd_8544.h	24;"	d
+OPT	Makefile	/^OPT = -Os$/;"	m
+OUT_OF_BORDER	inc/lcd_8544.h	23;"	d
+RM	Makefile	/^RM = rm$/;"	m
+SPIInit	inc/lcd_8544.h	/^void SPIInit(void);$/;"	p	signature:(void)
+SPIInit	src/lcd_8544.c	/^void SPIInit(void){$/;"	f	signature:(void)
+SPI_MODE	inc/lcd_8544.h	15;"	d
+SZ	Makefile	/^SZ = avr-size$/;"	m
+TARGET	Makefile	/^TARGET = charger$/;"	m
+TRUE	inc/lcd_8544.h	19;"	d
+bitcnt	src/lcd_8544.c	/^	 int bitcnt;$/;"	l
+ch	src/lcd_8544.c	/^	uint8_t ch = 1;$/;"	l
+i	src/lcd_8544.c	/^	uint16_t i;$/;"	l
+i	src/lcd_8544.c	/^	uint8_t i,j;$/;"	l
+i	src/lcd_8544.c	/^	uint8_t i;$/;"	l
+i	src/lcd_8544.c	/^    int i;$/;"	l
+j	src/lcd_8544.c	/^	uint8_t i,j;$/;"	l
+main	src/main.c	/^int main(void)$/;"	f	signature:(void)
+out_mode	src/lcd_8544.c	/^	uint8_t out_mode;$/;"	l
+temp	src/lcd_8544.c	/^	uint8_t temp;$/;"	l
+x_pos	src/lcd_8544.c	/^uint8_t x_pos;$/;"	v
+y_pos	src/lcd_8544.c	/^uint8_t y_pos;$/;"	v
