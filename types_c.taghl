@@ -1,5 +1,5 @@
-syn keyword CTagsLocalVariable adc_avg temp temp_val avg i volt amp sum result r FIRSTCHARADDR
-syn keyword CTagsGlobalVariable batt volt_temp OCR_temp cv_mode cc_mode amp_temp calib_mode li_ion
-syn keyword CTagsFunction SwPressed Calibrate PrintConst1 LcdPrint ChargeLiIon ADC_ReadAvg PrintParam LcdGotoxy main PWM_Init Print PrintDuty LcdClear MeasureVolt ADC_Init LcdData ADC_ReadRaw LcdInit MeasureAmp LcdCommand
-syn keyword CTagsDefinedName LCD_RS LCD_RW LCD_DDR ADC_INC SW_PIN DIV LCD_PRT LCD_INC SW_PORT LCD_PIN SW_DDR REF_VOLT MAIN_INC LCD_EN ADCREF_AREF ADCREF_AVCC
+syn keyword CTagsLocalVariable temp_val adc_avg sum avg i temp volt result r FIRSTCHARADDR amp
+syn keyword CTagsGlobalVariable batt li_ion cc_mode cv_mode OCR_temp calib_mode volt_temp amp_temp
+syn keyword CTagsFunction LcdCommand main ChargeLiIon LcdClear MeasureAmp Print SwPressed Calibrate LcdGotoxy ADC_ReadAvg LcdData PrintConst1 ADC_ReadRaw ADC_Init MeasureVolt PWM_Init LcdInit LcdPrint PrintParam PrintDuty
+syn keyword CTagsDefinedName ADCREF_AREF SW_DDR LCD_RS LCD_INC LCD_EN LCD_PRT MOSFET LCD_DDR REF_VOLT LCD_PIN LCD_RW SWITCH MAIN_INC ADC_INC ADCREF_AVCC SW_PIN BUZZER DIV SW_PORT
 

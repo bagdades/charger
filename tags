@@ -19,6 +19,7 @@ ASM_SOURCES	Makefile	/^ASM_SOURCES =  \\$/;"	m
 AS_DEFS	Makefile	/^AS_DEFS = $/;"	m
 AS_INCLUDES	Makefile	/^AS_INCLUDES = $/;"	m
 BUILD_DIR	Makefile	/^BUILD_DIR = build$/;"	m
+BUZZER	inc/main.h	15;"	d
 CC	Makefile	/^CC = avr-gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS = $(OPT) -Wall -fdata-sections -ffunction-sections$/;"	m
 CP	Makefile	/^CP = avr-objcopy$/;"	m
@@ -53,6 +54,7 @@ LcdPrint	inc/lcd.h	/^void LcdPrint(char*str);$/;"	p	signature:(char*str)
 LcdPrint	src/lcd.c	/^void LcdPrint(char*str)$/;"	f	signature:(char*str)
 MAIN_INC	inc/main.h	2;"	d
 MCU	Makefile	/^MCU = mcu=atmega328p$/;"	m
+MOSFET	inc/main.h	14;"	d
 MeasureAmp	src/main.c	/^uint16_t MeasureAmp(void)$/;"	f	signature:(void)
 MeasureVolt	src/main.c	/^uint16_t MeasureVolt(void)$/;"	f	signature:(void)
 OBJECTS	Makefile	/^OBJECTS = $(addprefix $(BUILD_DIR)\/,$(notdir $(C_SOURCES:.c=.o)))$/;"	m
@@ -67,6 +69,7 @@ PrintParam	src/main.c	/^void PrintParam(uint8_t x1, uint8_t y1, uint16_t val2)$/
 REF_VOLT	src/main.c	21;"	d	file:
 RM	Makefile	/^RM = rm$/;"	m
 SRC_DIR	Makefile	/^SRC_DIR = src\/$/;"	m
+SWITCH	inc/main.h	13;"	d
 SW_DDR	inc/main.h	10;"	d
 SW_PIN	inc/main.h	11;"	d
 SW_PORT	inc/main.h	12;"	d

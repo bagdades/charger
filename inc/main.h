@@ -10,5 +10,8 @@
 #define SW_DDR		DDRB
 #define SW_PIN		PINB
 #define SW_PORT		PORTB
+#define SWITCH		PB4
+#define MOSFET		PB1
+#define BUZZER		PB2
 
 #endif   /* ----- #ifndef MAIN_INC  ----- */
