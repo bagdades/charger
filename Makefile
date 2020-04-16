@@ -35,9 +35,12 @@ BUILD_DIR = build
 # source
 ######################################
 # C sources
-C_SOURCES =  \
-src/main.c \
-src/lcd_8544.c
+# C_SOURCES =  \
+# src/main.c \
+# src/lcd_8544.c \
+# src/adc.c
+SRC_DIR = src/
+C_SOURCES = $(wildcard $(SRC_DIR)*.c)
 
 # ASM sources
 ASM_SOURCES =  \
@@ -61,7 +64,7 @@ RM = rm
 #######################################
 #Mcu
 #------------------------------------------------------------------------------
-MCU = mcu=atmega16
+MCU = mcu=atmega328p
 
 
 # macros for gcc
@@ -69,7 +72,7 @@ MCU = mcu=atmega16
 AS_DEFS = 
 
 # C defines
-C_DEFS += F_CPU=8000000UL
+C_DEFS += F_CPU=16000000UL
 
 
 # AS includes
@@ -122,6 +125,7 @@ SIZEDUMMY += sizedummy
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).hex secondary-outputs
+	@echo 'Sources' $(C_SOURCES:.c=.o)
 
 
 #######################################
